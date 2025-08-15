@@ -902,6 +902,19 @@ body {
     background: var(--gradient-primary);
 }
 
+.btn-pricing.secondary.disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    padding: 15px 30px;
+    border-radius: var(--border-radius-small);
+    font-weight: 600;
+    color: #666666;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
 /* Testimonial Section */
 .testimonial {
     padding: var(--section-padding);
